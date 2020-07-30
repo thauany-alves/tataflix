@@ -1,0 +1,30 @@
+body{
+    padding-top: 10px;
+    padding-bottom: 0px;
+    
+}
+
+.notFound{
+    color: white;
+    display: flex;
+    text-align: center;
+}
+
+.info{
+    color: white;
+    font-family: 'Roboto Condensed';
+    float: left;
+    width: 50vh;
+}
+
+.info h1{
+    font-size: 40px;
+    padding: 10px;
+}
+
+
+.jogo iframe{
+    float: right;
+    display: inline-block;
+}
+
