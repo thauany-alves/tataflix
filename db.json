@@ -1,11 +1,130 @@
 {
     "categorias": [
-        {
-            "id": 1,
-            "nome" : "Front end",
-            "descricao" : "Uma categoria bacana",
-            "cor": "#cbd1ff"
-        }
-        
+      {
+        "titulo": "Carreira em Tecnologia",
+        "cor": "#6BD1FF",
+        "videos": [
+          {
+            "titulo": "O que é gestão de carreira?",
+            "url": "https://www.youtube.com/watch?v=unz-EGRNVa0"
+          },
+          {
+            "titulo": "O que é gestão de carreira?",
+            "url": "https://www.youtube.com/watch?v=unz-EGRNVa0"
+          },
+          {
+            "titulo": "O que é gestão de carreira?",
+            "url": "https://www.youtube.com/watch?v=unz-EGRNVa0"
+          },
+          {
+            "titulo": "Carreira Front-end",
+            "url": "https://www.youtube.com/watch?v=Hyv5dY38Ep0"
+          },
+          {
+            "titulo": "Carreiras Hipster em Tecnologia",
+            "url": "https://www.youtube.com/watch?v=AG8cYHCbGcg"
+          },
+          {
+            "titulo": "Maratonas de programação: você precisa participar",
+            "url": "https://www.youtube.com/watch?v=V_n_3hIBb7k&list=RDCMUCo7EHzKF2zDFWszw7Dg4mPw&index=20"
+          } ,
+          {
+            "titulo": "Mudança de Carreira",
+            "url": "https://www.youtube.com/watch?v=JdDYO3NJBvI"
+          }   
+        ]
+      },
+      {
+        "titulo": "Filmes",
+        "cor": "orange",
+        "videos": [
+          {
+            "titulo": "O bom dinossauro",
+            "url": "https://www.youtube.com/watch?v=A6z79w5fdDU"
+          },
+          {
+            "titulo": "Lion - Uma Jornada Para Casa",
+            "url": "https://www.youtube.com/watch?v=yYkMkZg8Nj8"
+          },
+          {
+            "titulo": "18 presentes",
+            "url": "https://www.youtube.com/watch?v=8vF9tMZrx6w"
+          },
+          {
+            "titulo": "O menino que descobriu o vento",
+            "url": "https://www.youtube.com/watch?v=OBprnlpM744"
+          },
+          {
+            "titulo": "O bom dinossauro",
+            "url": "https://www.youtube.com/watch?v=A6z79w5fdDU"
+          }
+  
+        ]
+      },
+      {
+        "titulo": "Séries",
+        "cor": "red",
+        "link_extra": {
+          "text": "",
+          "url": ""
+        },
+        "videos": [
+          {
+            "titulo": "How I met Your Mother",
+            "url": "https://www.youtube.com/watch?v=8BHQibR6Yhc"
+          },
+          {
+            "titulo": "Anne with an E",
+            "url": "https://www.youtube.com/watch?v=bBervTlBurY"
+          },
+          {
+            "titulo": "Olhos que condenam",
+            "url": "https://www.youtube.com/watch?v=5ktAyxNm2fo"
+          },
+          {
+            "titulo": "Inacreditável",
+            "url": "https://www.youtube.com/watch?v=mxWH19m15ag"
+          },
+          {
+            "titulo": "The alienist",
+            "url": "https://www.youtube.com/watch?v=k0J4qIQxYjw"
+          },
+          {
+            "titulo": "Perdida",
+            "url": "https://www.youtube.com/watch?v=rmLlhsBxmb0"
+          } 
+  
+        ]
+      },
+      {
+        "titulo": "Aprendendo a aprender tecnologia",
+        "cor": "#6b5be2",
+        "link_extra": {
+          "text": "Curso sobre aprendizado na Alura",
+          "url": "https://alura.com.br/curso-online-aprender-a-aprender-tecnicas-para-seu-autodesenvolvimento"
+        },
+        "videos": [
+          {
+            "titulo": "Como estudar melhor?",
+            "url": "https://www.youtube.com/watch?v=Is6c9KSGCbk&feature=youtu.be"
+          },
+          {
+            "titulo": "Faculdade",
+            "url": "https://www.youtube.com/watch?v=jw06H8esyzQ&feature=youtu.be"
+          },
+          {
+            "titulo": "Frameworks",
+            "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
+          },
+          {
+            "titulo": "A mágica do Aprendizado",
+            "url": "https://www.youtube.com/watch?v=oTEXzpfEpPY"
+          },
+          {
+            "titulo": "Como aprender a programar?",
+            "url": "https://www.youtube.com/watch?v=MwCx2qKdbDw&feature=youtu.be"
+          }
+        ]
+      }
     ]
-}
+  }
