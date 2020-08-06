@@ -35,8 +35,9 @@ function RegisterCategory() {
   // ============
 
   useEffect(() => {
-    if (window.location.href.includes('localhost')) {
-      const URL = 'https://tataflix.herokuapp.com/categorias';
+      const URL =  window.location.hostname.includes('localhost')
+      ? 'http://localhost:8080/categorias'
+      : 'https://tataflix.herokuapp.com/categorias';
       fetch(URL)
         .then(async (respostaDoServer) => {
           if (respostaDoServer.ok) {
