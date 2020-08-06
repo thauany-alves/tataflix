@@ -102,7 +102,7 @@ function RegisterCategory() {
       <ul>
         {categorias.map((categoria) => (
           <li key={`${categoria.id}`}>
-            {categoria.nome}
+            {categoria.titulo}
           </li>
         ))}
       </ul>
