@@ -3,10 +3,13 @@ import { Link } from 'react-router-dom';
 import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
 import styled from 'styled-components';
+import Button from '../../../components/Button';
+import useForm from '../../../hoocks/useForm';
 
 const H1 = styled.h1`
     padding-top: 50px;
 `;
+
 
 function RegisterCategory() {
   const valoresIniciais = {
@@ -14,23 +17,13 @@ function RegisterCategory() {
     descricao: '',
     cor: '',
   };
+
+  const {clearForm, handleChange, values} = useForm(valoresIniciais);
+
   const [categorias, setCategorias] = useState([]);
-  const [values, setValues] = useState(valoresIniciais);
+  
 
-  function setValue(chave, valor) {
-   
-    setValues({
-      ...values,
-      [chave]: valor, 
-    });
-  }
-
-  function handleChange(infosDoEvento) {
-    setValue(
-      infosDoEvento.target.getAttribute('name'),
-      infosDoEvento.target.value,
-    );
-  }
+  
 
   // ============
 
@@ -49,7 +42,6 @@ function RegisterCategory() {
           }
           throw new Error('Não foi possível pegar os dados');
         });
-    }
   }, []);
 
   return (
@@ -67,7 +59,7 @@ function RegisterCategory() {
           values,
         ]);
 
-        setValues(valoresIniciais);
+        clearForm();
       }}
       >
 
@@ -96,9 +88,9 @@ function RegisterCategory() {
         />
         
 
-        <button type="submit">
+        <Button type="submit">
           Cadastrar
-        </button>
+        </Button>
       </form>
 
       {categorias.length === 0 && (
