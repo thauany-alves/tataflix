@@ -14,7 +14,7 @@ Tivemos a liberdade de customizar e deixar a aplicação com a nosso estilo e go
 - Implementação da Página de erro 404 com o frame do [Flappy Bird](https://mariosouto.com/flappy-bird-devsoutinho/) do Mario Souto 
 
 ### Demonstração
-[Veja a demosntração do que foi desenvolvido até o momento](tataflix.vercel.app)
+[Veja](tataflix.vercel.app)  a demontração do que foi desenvolvido até o momento
 
 ### Execução 
 
