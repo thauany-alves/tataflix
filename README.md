@@ -1,6 +1,6 @@
 # Tataflix
 
-Tataflix é um projeto criado na imersão react promovida pela Alura Online na ultima semana de julho/2020. </br>
+Tataflix é um projeto criado na imersão react promovida pela [Alura Online](https://www.alura.com.br/) na ultima semana de julho/2020. </br>
 A imersão react da Alura teve como objetivo ensinar conceitos de Reactjs e desenvolver uma aplicação inspirada na interface do Netflix, o Aluraflix. 
 Tivemos a liberdade de customizar e deixar a aplicação com a nosso estilo e gosto,  assim como crescer mais o projeto. 
 
